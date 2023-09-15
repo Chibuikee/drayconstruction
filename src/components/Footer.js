@@ -92,7 +92,7 @@ function Footer() {
         <div className="bg-[#2e313a]">
           <div className="flex px-7 justify-between items-center font-sans py-4 text-white mx-auto max-w-[960px] lg:max-w-[1280px] ">
             <div className="">
-              <p className="copy-rights text-muted">2022 © DRAYCONSTRUCTION</p>
+              <p className="copy-rights text-muted">2023 © DRAYCONSTRUCTION</p>
             </div>
             <div className="float-end pull-none">
               <Image

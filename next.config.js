@@ -32,6 +32,7 @@ const nextConfig = {
       "source.unsplash.com",
       "i.ibb.co",
       "penfed.org",
+      "picsum.photos",
     ],
   },
 };

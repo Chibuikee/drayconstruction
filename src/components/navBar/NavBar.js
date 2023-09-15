@@ -32,15 +32,17 @@ function NavBar() {
           src={process.env.PUBLIC_URL + "/logo.png"}
           className="w-[140px] h-[35.5px] pc:w-[240px] pc:h-[60.88px]"
         /> */}
-        <h1 className="w-[140px] font-bold pc:w-[240px] ">
-          DRAYCON
-          {/* <span className="block">CON</span> */}
-        </h1>
+        <Link href="/">
+          <h1 className="w-[140px] font-bold pc:w-[240px] ">
+            DRAYCON
+            {/* <span className="block">CON</span> */}
+          </h1>
+        </Link>
         <div className="pc:flex  hidden">
           {navdatajson.map((item, key) => (
             <div key={item.title.name} className="bg-[#ffffff]">
-              <div className="main py-5 font-normal hover:text-[red] px-[7px] lg:px-[20px] ">
-                {item.title.name}
+              <div className="main py-5 font-normal cursor-pointer hover:text-[red] px-[7px] lg:px-[20px] ">
+                <Link href={item.title.url}>{item.title.name}</Link>
               </div>
               <div className="hidden sub absolute right-0 left-0 top-[70px] pc:top-[70px] z-[999]">
                 <NavSubFolders data={item} />
