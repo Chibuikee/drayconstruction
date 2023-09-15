@@ -10,7 +10,7 @@ export const ADdata = [
     url: "#",
   },
   {
-    name: "OPEN:9PM - 5PM",
+    name: "Mon - Sat: 9:00 - 18:00",
     url: "#",
   },
 
@@ -20,10 +20,6 @@ export const ADdata = [
   },
   {
     name: "A TECHNICIAN ? JOIN US",
-    url: "#",
-  },
-  {
-    name: "SEARCH",
     url: "#",
   },
 ];
@@ -161,7 +157,7 @@ export const navdatajson = [
         title: { name: "", url: "/HOW_CAN_WE_HELP" },
         childList: [],
         url: {
-          name: "https://www.penfed.org/content/dam/penfed/general/img/2022/global-nav/2022.06_PF_PFOL-Checking-Tiles-R3_Checking_300x250-3.jpg",
+          name: "/assets/hero/construction.jpg",
           url: "/Contact_Us",
         },
       },
@@ -220,7 +216,7 @@ export const navdatajson = [
         title: { name: "", url: "/HOW_CAN_WE_HELP" },
         childList: [],
         url: {
-          name: "https://www.penfed.org/content/dam/penfed/general/img/2020/credit-cards/Gobal_Nav_Menu_Gold_3.jpg",
+          name: "assets/hero/roof-truss.jpg",
           url: "/Contact_Us",
         },
       },
@@ -274,7 +270,7 @@ export const navdatajson = [
         title: { name: "", url: "/HOW_CAN_WE_HELP" },
         childList: [],
         url: {
-          name: "https://www.penfed.org/content/dam/penfed/general/img/2023/auto/auto-promo-website-images-r-2-300-x-250-universal-nav-bar-updated.jpg",
+          name: "/assets/hero/scaffold.jpg",
           url: "/Contact_Us",
         },
       },
@@ -340,7 +336,7 @@ export const navdatajson = [
         title: { name: "", url: "/HOW_CAN_WE_HELP" },
         childList: [],
         url: {
-          name: "https://www.penfed.org/content/dam/penfed/general/img/2018/globalnav/globalnav_promo_newstudentloanoption_300x250.jpg",
+          name: "/assets/hero/under-construction.jpg",
           url: "/Contact_Us",
         },
       },

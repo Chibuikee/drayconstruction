@@ -42,13 +42,16 @@ function Pricing() {
   ];
   return (
     <>
-      <section id="Pricing" className="py-[80px]">
-        <div className="w-[90%] mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+      <section
+        id="Pricing"
+        className="py-[80px] relative z-0 bg-[url('/assets/team/tools1.avif')] bg-center bg-cover w-[100%] h-[100%]"
+      >
+        <div className="w-[90%] relative z-10 brightness- mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             OUR PRICING
           </h1>
           <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
-          <p className="pt-4 text-[#95a0ab] text-sm mb-4 text-center">
+          <p className="pt-4 text-[#fdfdfd] text-sm mb-4 text-center">
             Call to action pricing table is really crucial to your for your
             business website. Make your bids stand-out with amazing options.
           </p>

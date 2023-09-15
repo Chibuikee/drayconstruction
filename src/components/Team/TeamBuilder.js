@@ -13,7 +13,7 @@ function TeamBox({ teams }) {
                 src={team.image}
                 width="216"
                 height="216"
-                layout="responsive"
+                // layout="responsive"
               />
             </div>
 

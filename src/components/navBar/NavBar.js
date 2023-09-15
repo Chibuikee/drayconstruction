@@ -13,8 +13,8 @@ function NavBar() {
 
   return (
     <nav className="relative">
-      <div className="p-[6px] bg-[#f4f4f4] hidden lg:block">
-        <ul className="flex justify-between ml-[150px] ">
+      <div className="p-[6px]  bg-[#f4f4f4] hidden lg:block">
+        <ul className="flex justify-between ml-[120px] pr-5 ">
           {ADdata.map((item) => (
             <li
               key={item.name}
@@ -27,7 +27,7 @@ function NavBar() {
           ))}
         </ul>
       </div>
-      <div className="p-[27px] flex justify-between mr-7 xxxs:mr-12 relative items-center">
+      <div className="px-[27px] md:px-20 py-[17px] lg:py-[5px] flex justify-between mr-7 xxxs:mr-12 relative items-center">
         {/* <img
           src={process.env.PUBLIC_URL + "/logo.png"}
           className="w-[140px] h-[35.5px] pc:w-[240px] pc:h-[60.88px]"
@@ -42,7 +42,7 @@ function NavBar() {
               <div className="main py-5 font-normal hover:text-[red] px-[7px] lg:px-[20px] ">
                 {item.title.name}
               </div>
-              <div className="hidden sub absolute right-0 left-0 top-[95px] pc:top-[110px] z-[999]">
+              <div className="hidden sub absolute right-0 left-0 top-[70px] pc:top-[70px] z-[999]">
                 <NavSubFolders data={item} />
               </div>
             </div>
@@ -61,7 +61,7 @@ function NavBar() {
           </Link>
         </div>
       </div>
-      <div className=" absolute pc:static right-0 xxxs:right-5 top-[33px] pc:top-[50px]">
+      <div className=" absolute pc:static right-0 xxxs:right-5 top-[23px] pc:top-[50px]">
         <input type="checkbox" id="check" className="hidden" />
         <label
           htmlFor="check"

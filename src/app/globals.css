@@ -154,13 +154,13 @@ a:active {
 }
 
 /*HERO SECTION*/
-.hero-paragragh {
+/* .hero-paragragh {
   width: 300px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
-}
+} */
 .footer-grif-ctn :nth-child(3) {
   grid-column: span 2;
 }
