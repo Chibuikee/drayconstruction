@@ -15,10 +15,15 @@ const Contact = () => {
   }
   return (
     <>
-      <section id="Contact" className="py-20">
-        <div className="mt-4 px-4 mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
+      <section
+        id="Contact"
+        className="py-20 relative bg-[url('/assets/blog/woodcontact.avif')] bg-center bg-cover w-[100%] h-[100%]"
+      >
+        {" "}
+        <div className="absolute inset-0 bg-[rgb(0,0,0,0.7)] z-0"></div>
+        <div className="relative z-10 mt-4 px-4 mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <div>
-            <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
+            <h1 className="text-center text-white font-medium tracking-wide text-[1.75rem] pb-4">
               GET IN TOUCH
             </h1>
             <div className="w-12 h-[0.125rem] mt-3 mx-auto bg-[#fb3e3e]"></div>
@@ -30,14 +35,14 @@ const Contact = () => {
           <div className="lg:flex justify-between">
             <div className="mt-4 pt-4 basis-1/3">
               <p className="mt-4">
-                <span className="text-[#212529]">Office Address 1:</span>
+                <span className="text-white">Office Address 1:</span>
                 <br />
                 <span className=" text-[#95a0ab] mt-2">
                   4461 Cedar Street Moro, AR 72368
                 </span>
               </p>
               <p className="mt-4">
-                <span className="text-[#212529]">Office Address 2:</span>
+                <span className="text-white">Office Address 2:</span>
                 <br />
                 <span className="text-[#95a0ab] mt-2">
                   2467 Swick Hill Street <br />
@@ -45,7 +50,7 @@ const Contact = () => {
                 </span>
               </p>
               <p className="mt-4">
-                <span className="text-[#212529]">Working Hours:</span>
+                <span className="text-white">Working Hours:</span>
                 <br />
                 <span className="text-[#95a0ab] mt-2">9:00AM To 6:00PM</span>
               </p>

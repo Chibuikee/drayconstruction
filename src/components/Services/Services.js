@@ -44,7 +44,7 @@ function Services() {
 
   return (
     <>
-      <section id="services" className="py-[80px] bg-[rgb(75,12,41,0.7)] ">
+      <section id="services" className="py-[80px] bg-[#5e3f1f] ">
         <div className="w-[90%] mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             OUR SERVICES

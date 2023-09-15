@@ -50,12 +50,12 @@ function NavBar() {
         </div>
         <div className="flex gap-3 shrink-0 ">
           <Link href="/">
-            <button className="bg-[red] text-[white] hidden pc:block cursor-pointer py-[0.375rem] px-[1.375rem] text-base font-[500] border rounded-[6px] border-solid border-[#047dba]">
+            <button className="bg-[rgb(96,59,42)] text-[white] hidden pc:block cursor-pointer py-[0.375rem] px-[1.375rem] text-base font-[500] border rounded-[6px] border-solid border-[#047dba]">
               Join Now
             </button>
           </Link>
           <Link href="/">
-            <button className="pc:text-[red] pc:bg-[white] bg-[red] text-[white] cursor-pointer py-[0.375rem] px-[1.375rem] text-base font-[500] border rounded-[6px] border-solid border-[#047dba]">
+            <button className="pc:text-[rgb(96,59,42)] pc:bg-[white] bg-[rgb(96,59,42)] text-[white] cursor-pointer py-[0.375rem] px-[1.375rem] text-base font-[500] border rounded-[6px] border-solid border-[#047dba]">
               Start
             </button>
           </Link>

@@ -11,9 +11,9 @@ export default function Hero() {
       <div>
         <div className="">
           {/* <div className=" filter brightness-50 bg-[url('/assets/hero/woodwork1.jpg')] bg-center bg-cover w-[100%] h-[60vh]"></div> */}
-          <div className=" filter brightness-50 bg-[url('/assets/hero/woodwork1.jpg')] bg-center bg-cover w-[100%] h-[80vh]"></div>
+          <div className=" filter brightness-50 bg-[url('/assets/hero/woodwork1.jpg')] bg-center bg-cover w-[100%] h-[90vh]"></div>
           <div className="w-[90%] sm:w-[540px] md:w-[720px] px-3 lg:w-[1000px] xl:w-[1200px] absolute top-[30%] text-white left-0 right-0 mx-auto lg:flex">
-            <div className="lg:mt-[100px] text-base xl:text-[1.5rem] lg:pl-10">
+            <div className="lg:mt-[20px] xl:mt-[50] text-base xl:text-[1.2rem] lg:pl-5">
               <div className="text-3xl md:text-5xl xl:text-[5rem]">
                 <h1 className="md:whitespace-nowrap">BUILD YOUR HOMES</h1>
                 <span className="block max-w-[15ch]">
@@ -27,11 +27,11 @@ export default function Hero() {
                 you best.
               </span>
               <span className="block">And we mean it</span>
-              <button className="bg-black  text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              <button className="bg-black  text-white py-2 px-4 mt-2 rounded focus:outline-none focus:shadow-outline">
                 Read More
               </button>
             </div>
-            <div className="w-[300px] h-[200px] md:mt-[130px] mx-auto hidden lg:block">
+            <div className="w-[300px] h-[200px] md:mt-[80px] xl:mt-[130px] mx-auto hidden lg:block">
               <ImageSlider slides={Sliderdata} />
             </div>
           </div>

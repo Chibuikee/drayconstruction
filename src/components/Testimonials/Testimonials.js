@@ -25,7 +25,7 @@ const clients = [
 function Testimonials(props) {
   return (
     <>
-      <section className="py-[80px]">
+      <section className="py-[80px] bg-[#562A60]">
         <div className="w-[90%] mx-auto sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             WHAT THEY`VE SAID

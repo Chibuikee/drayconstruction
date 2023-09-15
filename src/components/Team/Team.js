@@ -30,7 +30,7 @@ const teams = [
 function Team() {
   return (
     <>
-      <section id="Team" className="py-[80px] bg-[#f8fbff]">
+      <section id="Team" className="py-[80px] bg-[#2A4F60]">
         <div className="mx-auto px-10 sm:max-w-[600px] md:max-w-[760px] lg:max-w-[1010px] xl:max-w-[1280px]">
           <h1 className="text-center font-medium tracking-wide text-[1.75rem] pb-4">
             BEHIND THE PEOPLE
